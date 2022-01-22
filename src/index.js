@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Ajdy from './App'; // App.js에서 .js가 생략된 것
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ajdy />
   </React.StrictMode>,
   document.getElementById('root')
 );
